@@ -1,7 +1,7 @@
 BadSql::Application.routes.draw do
-  match 'query/:action', :controller => :query
+  post 'query/:action', :controller => :query
 
-  match 'examples' => 'query#examples'
+  get 'examples' => 'query#examples'
 
   root :to => 'query#index'
 
