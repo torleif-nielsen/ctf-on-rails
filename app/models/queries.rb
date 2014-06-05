@@ -132,6 +132,20 @@ For more information, see [the ActiveRecord docs](http://api.rubyonrails.org/cla
   },
 
   {
+    :action => :find_by,
+    :name => "Find By Method",
+    :link => "http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find_by",
+    :query => 'User.find_by params[:id]',
+    :input => {:name => :id, :example => "admin = 't'"},
+    :example => 'Passing ',
+    :desc => <<-MD
+Added in Rails 4, the `find_by`/`find_by!` methods are simply calling `where(*args).take`, so all the options for `where` also apply.
+
+The safest (and most common) use of these methods is to pass in a hash table.
+    MD
+  },
+
+  {
     :action => :from_option,
     :name => "From Option",
     :link => "http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find",
