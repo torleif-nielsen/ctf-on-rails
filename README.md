@@ -25,13 +25,13 @@ rake db:setup db:seed
 
 ### Run
 
-Typical Rails start: 
+Typical Rails start:
 
 ```
 rails s
 ```
 
-Open up [localhost:3000](http://localhost:3000) in a browser. 
+Open up [localhost:3000](http://localhost:3000) in a browser.
 
 ### Reset Database
 
@@ -62,4 +62,5 @@ All queries are generated from `app/models/queries.rb`.
 
 ## License
 
-This code is made available under the MIT license.
+All code originating from 'presidentbeef/inject-some-sql' is made available under the MIT license.
+All code additions originating from forked repo 'ctf-on-rails' and added assets are copyright of the University of Hawaii at Manoa.
