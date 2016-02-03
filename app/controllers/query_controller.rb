@@ -1,6 +1,6 @@
 class QueryController < ApplicationController
   after_filter :reset_database, :except => [:index, :examples]
-
+  skip_before_filter :verify_authenticity_token
   def index
     @queries = Queries
   end
