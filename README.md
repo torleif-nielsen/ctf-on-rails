@@ -62,5 +62,4 @@ All queries are generated from `app/models/queries.rb`.
 
 ## License
 
-All code originating from 'presidentbeef/inject-some-sql' is made available under the MIT license.
-All code additions originating from forked repo 'ctf-on-rails' and added assets are copyright of the University of Hawaii at Manoa.
+Repository source code is licensed under the MIT license.
